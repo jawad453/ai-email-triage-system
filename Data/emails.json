@@ -1,0 +1,894 @@
+[
+  {
+    "text": "I'd like to order two large cappuccinos for pickup this afternoon.",
+    "label": "order"
+  },
+  {
+    "text": "Can I place an order for a vanilla latte and a blueberry muffin?",
+    "label": "order"
+  },
+  {
+    "text": "Please prepare one iced caramel latte and two chocolate cookies for me.",
+    "label": "order"
+  },
+  {
+    "text": "I'd like to add an extra espresso shot to my latte order.",
+    "label": "order"
+  },
+  {
+    "text": "Can I change my order from a medium coffee to a large one?",
+    "label": "order"
+  },
+  {
+    "text": "I'd like three hot chocolates and one croissant for pickup.",
+    "label": "order"
+  },
+  {
+    "text": "Can you make a takeaway order for two flat whites?",
+    "label": "order"
+  },
+  {
+    "text": "I want to order a cold brew and a cheese sandwich.",
+    "label": "order"
+  },
+  {
+    "text": "Please add a blueberry muffin to my existing order.",
+    "label": "order"
+  },
+  {
+    "text": "I'd like to order four cappuccinos for our office.",
+    "label": "order"
+  },
+  {
+    "text": "Can I order a decaf latte with oat milk?",
+    "label": "order"
+  },
+  {
+    "text": "I'd like one iced mocha and a cinnamon roll, please.",
+    "label": "order"
+  },
+  {
+    "text": "Can I place an order for pickup at 5 PM?",
+    "label": "order"
+  },
+  {
+    "text": "Please prepare two americanos and three chocolate muffins.",
+    "label": "order"
+  },
+  {
+    "text": "I'd like to cancel the coffee order I placed earlier.",
+    "label": "order"
+  },
+  {
+    "text": "Can I add another latte to my order before it is prepared?",
+    "label": "order"
+  },
+  {
+    "text": "I would like a large iced coffee with vanilla syrup.",
+    "label": "order"
+  },
+  {
+    "text": "Please make my order two cappuccinos and one brownie.",
+    "label": "order"
+  },
+  {
+    "text": "Can I change the milk in my latte order to almond milk?",
+    "label": "order"
+  },
+  {
+    "text": "I'd like to order a breakfast sandwich and a medium coffee.",
+    "label": "order"
+  },
+  {
+    "text": "Could you prepare six coffees for pickup tomorrow morning?",
+    "label": "order"
+  },
+  {
+    "text": "I want to order an iced matcha and a blueberry scone.",
+    "label": "order"
+  },
+  {
+    "text": "Please add whipped cream to the mocha I'm ordering.",
+    "label": "order"
+  },
+  {
+    "text": "Can I place an order for two decaf americanos?",
+    "label": "order"
+  },
+  {
+    "text": "I'd like one large caramel macchiato and a muffin.",
+    "label": "order"
+  },
+  {
+    "text": "Can I order three drinks under the same pickup order?",
+    "label": "order"
+  },
+  {
+    "text": "Please change my order to include a chocolate croissant.",
+    "label": "order"
+  },
+  {
+    "text": "I'd like to order a cappuccino without sugar.",
+    "label": "order"
+  },
+  {
+    "text": "Can I get two iced lattes with extra ice?",
+    "label": "order"
+  },
+  {
+    "text": "I would like a large cold brew and a turkey sandwich.",
+    "label": "order"
+  },
+  {
+    "text": "Please prepare a latte and a cinnamon bun for pickup.",
+    "label": "order"
+  },
+  {
+    "text": "I'd like to place an order for ten coffees for a meeting.",
+    "label": "order"
+  },
+  {
+    "text": "Can I order a decaf cappuccino with skim milk?",
+    "label": "order"
+  },
+  {
+    "text": "Please add one more blueberry muffin to my order.",
+    "label": "order"
+  },
+  {
+    "text": "I'd like two hot chocolates with marshmallows.",
+    "label": "order"
+  },
+  {
+    "text": "Can I change my pickup order from 3 PM to 4 PM?",
+    "label": "order"
+  },
+  {
+    "text": "I want a medium mocha and a chocolate chip cookie.",
+    "label": "order"
+  },
+  {
+    "text": "Please make one latte and two croissants for takeaway.",
+    "label": "order"
+  },
+  {
+    "text": "I'd like to order a vanilla cold brew with oat milk.",
+    "label": "order"
+  },
+  {
+    "text": "Can I place an order for four iced coffees?",
+    "label": "order"
+  },
+  {
+    "text": "Please add an extra shot to both lattes in my order.",
+    "label": "order"
+  },
+  {
+    "text": "I'd like a caramel latte and a blueberry scone, please.",
+    "label": "order"
+  },
+  {
+    "text": "Can I cancel the sandwich from my current order?",
+    "label": "order"
+  },
+  {
+    "text": "Please prepare three americanos for pickup at noon.",
+    "label": "order"
+  },
+  {
+    "text": "I'd like to order a large cappuccino and a breakfast wrap.",
+    "label": "order"
+  },
+  {
+    "text": "Can I request soy milk for the latte I'm ordering?",
+    "label": "order"
+  },
+  {
+    "text": "I want two iced mochas and one chocolate muffin.",
+    "label": "order"
+  },
+  {
+    "text": "Please make my coffee order decaf instead.",
+    "label": "order"
+  },
+  {
+    "text": "I'd like to order five pastries for our team.",
+    "label": "order"
+  },
+  {
+    "text": "Can I add a caramel syrup to my iced latte order?",
+    "label": "order"
+  },
+  {
+    "text": "Please prepare a flat white and a croissant for me.",
+    "label": "order"
+  },
+  {
+    "text": "The new caramel latte was fantastic, and I really enjoyed it.",
+    "label": "feedback"
+  },
+  {
+    "text": "Your cappuccino was excellent today. The flavor was perfect.",
+    "label": "feedback"
+  },
+  {
+    "text": "I loved the atmosphere in the cafe this morning.",
+    "label": "feedback"
+  },
+  {
+    "text": "The staff were very friendly and welcoming during my visit.",
+    "label": "feedback"
+  },
+  {
+    "text": "The coffee tasted fresh and well prepared. Great job!",
+    "label": "feedback"
+  },
+  {
+    "text": "I really enjoyed the blueberry muffin with my coffee.",
+    "label": "feedback"
+  },
+  {
+    "text": "The service was a little slow today, but the drinks were good.",
+    "label": "feedback"
+  },
+  {
+    "text": "Your new seasonal latte is delicious. Please keep it on the menu.",
+    "label": "feedback"
+  },
+  {
+    "text": "The cafe has a comfortable atmosphere and I enjoyed working there.",
+    "label": "feedback"
+  },
+  {
+    "text": "I thought the espresso was stronger than usual today, in a good way.",
+    "label": "feedback"
+  },
+  {
+    "text": "The croissant was fresh and perfectly baked.",
+    "label": "feedback"
+  },
+  {
+    "text": "I had a wonderful experience at Brew & Bean this morning.",
+    "label": "feedback"
+  },
+  {
+    "text": "The barista made my latte exactly how I like it. Thank you!",
+    "label": "feedback"
+  },
+  {
+    "text": "The coffee was good, but the seating area was quite noisy today.",
+    "label": "feedback"
+  },
+  {
+    "text": "I really like the new menu options.",
+    "label": "feedback"
+  },
+  {
+    "text": "Your cold brew is one of the best I've tried.",
+    "label": "feedback"
+  },
+  {
+    "text": "The staff handled the morning rush very professionally.",
+    "label": "feedback"
+  },
+  {
+    "text": "The chocolate muffin was delicious and tasted fresh.",
+    "label": "feedback"
+  },
+  {
+    "text": "I appreciate how welcoming your cafe feels.",
+    "label": "feedback"
+  },
+  {
+    "text": "The latte art on my cappuccino looked beautiful.",
+    "label": "feedback"
+  },
+  {
+    "text": "The coffee was slightly bitter today compared with my previous visits.",
+    "label": "feedback"
+  },
+  {
+    "text": "I enjoyed the music and relaxed atmosphere this afternoon.",
+    "label": "feedback"
+  },
+  {
+    "text": "The service was friendly and the drinks came out quickly.",
+    "label": "feedback"
+  },
+  {
+    "text": "I really liked the oat milk latte.",
+    "label": "feedback"
+  },
+  {
+    "text": "Your breakfast sandwich was tasty and filling.",
+    "label": "feedback"
+  },
+  {
+    "text": "The new cinnamon roll is excellent. I hope it stays available.",
+    "label": "feedback"
+  },
+  {
+    "text": "I was impressed by how clean and comfortable the cafe was.",
+    "label": "feedback"
+  },
+  {
+    "text": "The coffee quality has been consistently good on my recent visits.",
+    "label": "feedback"
+  },
+  {
+    "text": "The staff were polite even though the cafe was very busy.",
+    "label": "feedback"
+  },
+  {
+    "text": "I loved my mocha today. It had just the right amount of sweetness.",
+    "label": "feedback"
+  },
+  {
+    "text": "The cafe is a great place to meet friends over coffee.",
+    "label": "feedback"
+  },
+  {
+    "text": "I think the drinks have improved a lot recently.",
+    "label": "feedback"
+  },
+  {
+    "text": "The pastry selection was excellent this morning.",
+    "label": "feedback"
+  },
+  {
+    "text": "The cappuccino was a little too cold for my preference.",
+    "label": "feedback"
+  },
+  {
+    "text": "I had a pleasant visit and will definitely come back.",
+    "label": "feedback"
+  },
+  {
+    "text": "The new packaging looks nice and feels more convenient.",
+    "label": "feedback"
+  },
+  {
+    "text": "I enjoyed the friendly service from the morning team.",
+    "label": "feedback"
+  },
+  {
+    "text": "The espresso had a great aroma and rich flavor.",
+    "label": "feedback"
+  },
+  {
+    "text": "I liked the cafe overall, although the tables were crowded.",
+    "label": "feedback"
+  },
+  {
+    "text": "The blueberry scone was fresh and delicious.",
+    "label": "feedback"
+  },
+  {
+    "text": "Your staff made my visit feel welcoming and relaxed.",
+    "label": "feedback"
+  },
+  {
+    "text": "The new iced coffee flavor is really refreshing.",
+    "label": "feedback"
+  },
+  {
+    "text": "I appreciate the variety of milk options on the menu.",
+    "label": "feedback"
+  },
+  {
+    "text": "The coffee was excellent and arrived at the table quickly.",
+    "label": "feedback"
+  },
+  {
+    "text": "I enjoyed the quiet atmosphere during my afternoon visit.",
+    "label": "feedback"
+  },
+  {
+    "text": "The mocha was sweeter than I expected, but still enjoyable.",
+    "label": "feedback"
+  },
+  {
+    "text": "The barista was patient and helpful when I was choosing a drink.",
+    "label": "feedback"
+  },
+  {
+    "text": "I really enjoyed the chocolate croissant.",
+    "label": "feedback"
+  },
+  {
+    "text": "The cafe looks great after the recent changes.",
+    "label": "feedback"
+  },
+  {
+    "text": "The service felt rushed today compared with my previous visit.",
+    "label": "feedback"
+  },
+  {
+    "text": "Your coffee beans have a wonderful flavor.",
+    "label": "feedback"
+  },
+  {
+    "text": "I liked the presentation of my latte and pastry.",
+    "label": "feedback"
+  },
+  {
+    "text": "The cafe was clean, comfortable, and pleasant.",
+    "label": "feedback"
+  },
+  {
+    "text": "I think the prices are reasonable for the quality of the drinks.",
+    "label": "feedback"
+  },
+  {
+    "text": "The new menu is easy to understand and has some great choices.",
+    "label": "feedback"
+  },
+  {
+    "text": "I had a great experience and wanted to let your team know.",
+    "label": "feedback"
+  },
+  {
+    "text": "The coffee was enjoyable, although it took longer than expected to prepare.",
+    "label": "feedback"
+  },
+  {
+    "text": "I love stopping by Brew & Bean during my morning commute.",
+    "label": "feedback"
+  },
+  {
+    "text": "Are there any upcoming events at the cafe?",
+    "label": "feedback"
+  },
+  {
+    "text": "My order arrived with the wrong drink. Can you help me fix this?",
+    "label": "support"
+  },
+  {
+    "text": "I was charged twice for the same order. Please help.",
+    "label": "support"
+  },
+  {
+    "text": "My payment went through, but I never received an order confirmation.",
+    "label": "support"
+  },
+  {
+    "text": "The discount code on my account is not working.",
+    "label": "support"
+  },
+  {
+    "text": "I received my order, but one item is missing. What should I do?",
+    "label": "support"
+  },
+  {
+    "text": "My pickup order is showing as ready, but the cafe says it isn't.",
+    "label": "support"
+  },
+  {
+    "text": "I cannot find the receipt for my recent purchase.",
+    "label": "support"
+  },
+  {
+    "text": "The payment terminal declined my card several times. Can you assist?",
+    "label": "support"
+  },
+  {
+    "text": "I accidentally entered the wrong phone number on my order. Can you update it?",
+    "label": "support"
+  },
+  {
+    "text": "My order has not arrived yet and the expected time has passed.",
+    "label": "support"
+  },
+  {
+    "text": "I received a cold drink and would like help resolving the issue.",
+    "label": "support"
+  },
+  {
+    "text": "The app is not letting me complete my coffee order.",
+    "label": "support"
+  },
+  {
+    "text": "I cannot apply the loyalty points from my recent purchase.",
+    "label": "support"
+  },
+  {
+    "text": "My loyalty account is not showing points from yesterday's visit.",
+    "label": "support"
+  },
+  {
+    "text": "I received someone else's order by mistake. Please advise.",
+    "label": "support"
+  },
+  {
+    "text": "The payment was successful, but the order disappeared from my account.",
+    "label": "support"
+  },
+  {
+    "text": "I need help changing the contact details on my account.",
+    "label": "support"
+  },
+  {
+    "text": "The pickup notification never arrived on my phone.",
+    "label": "support"
+  },
+  {
+    "text": "My order was marked completed even though I never picked it up.",
+    "label": "support"
+  },
+  {
+    "text": "I cannot log into my customer account. Can you help?",
+    "label": "support"
+  },
+  {
+    "text": "The online ordering page keeps giving me an error.",
+    "label": "support"
+  },
+  {
+    "text": "I was charged for an item that was not included in my order.",
+    "label": "support"
+  },
+  {
+    "text": "My refund has not appeared yet. Could you check its status?",
+    "label": "support"
+  },
+  {
+    "text": "I entered the wrong pickup time and need assistance correcting it.",
+    "label": "support"
+  },
+  {
+    "text": "The QR code for my loyalty reward is not scanning.",
+    "label": "support"
+  },
+  {
+    "text": "My promotional voucher says it has expired even though it should still be valid.",
+    "label": "support"
+  },
+  {
+    "text": "I cannot see my recent order in my account history.",
+    "label": "support"
+  },
+  {
+    "text": "The website keeps logging me out while I am trying to order.",
+    "label": "support"
+  },
+  {
+    "text": "I received a notification saying my order was cancelled, but I did not cancel it.",
+    "label": "support"
+  },
+  {
+    "text": "Can you help me recover a missing loyalty reward?",
+    "label": "support"
+  },
+  {
+    "text": "The card payment was duplicated on my bank statement.",
+    "label": "support"
+  },
+  {
+    "text": "My order was missing the drink I paid for.",
+    "label": "support"
+  },
+  {
+    "text": "I need assistance with a refund for a cancelled order.",
+    "label": "support"
+  },
+  {
+    "text": "The pickup location on my confirmation is incorrect. Can you help?",
+    "label": "support"
+  },
+  {
+    "text": "I can't access my digital receipt from this morning.",
+    "label": "support"
+  },
+  {
+    "text": "The ordering page won't accept my delivery address.",
+    "label": "support"
+  },
+  {
+    "text": "My coupon disappeared from my account before I could use it.",
+    "label": "support"
+  },
+  {
+    "text": "The order total changed unexpectedly before payment.",
+    "label": "support"
+  },
+  {
+    "text": "I need help because my order was prepared for the wrong pickup time.",
+    "label": "support"
+  },
+  {
+    "text": "My refund was approved but I haven't received the money yet.",
+    "label": "support"
+  },
+  {
+    "text": "The loyalty points I earned were not added to my account.",
+    "label": "support"
+  },
+  {
+    "text": "I can't reset my password using the link I received.",
+    "label": "support"
+  },
+  {
+    "text": "My confirmation email has the wrong order details.",
+    "label": "support"
+  },
+  {
+    "text": "The cafe app freezes whenever I try to open my order history.",
+    "label": "support"
+  },
+  {
+    "text": "I was charged even though my order failed to go through.",
+    "label": "support"
+  },
+  {
+    "text": "Can someone help me with a missing item from my takeaway order?",
+    "label": "support"
+  },
+  {
+    "text": "My pickup order has been delayed for more than thirty minutes.",
+    "label": "support"
+  },
+  {
+    "text": "The loyalty reward I redeemed was not applied to my purchase.",
+    "label": "support"
+  },
+  {
+    "text": "I can't update my saved payment method.",
+    "label": "support"
+  },
+  {
+    "text": "The website says my order is cancelled, but the payment is still pending.",
+    "label": "support"
+  },
+  {
+    "text": "I need assistance because the wrong size drink was prepared.",
+    "label": "support"
+  },
+  {
+    "text": "My order confirmation contains an incorrect phone number.",
+    "label": "support"
+  },
+  {
+    "text": "The checkout page keeps rejecting my payment.",
+    "label": "support"
+  },
+  {
+    "text": "What time do you open on weekdays?",
+    "label": "other"
+  },
+  {
+    "text": "Are you open on Sundays?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have Wi-Fi available for customers?",
+    "label": "other"
+  },
+  {
+    "text": "Where is your cafe located?",
+    "label": "other"
+  },
+  {
+    "text": "What are your opening hours on Saturday?",
+    "label": "other"
+  },
+  {
+    "text": "Do you offer dairy-free milk options?",
+    "label": "other"
+  },
+  {
+    "text": "Is there parking near the cafe?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have outdoor seating?",
+    "label": "other"
+  },
+  {
+    "text": "What types of coffee beans do you use?",
+    "label": "other"
+  },
+  {
+    "text": "Do you offer gift cards?",
+    "label": "other"
+  },
+  {
+    "text": "Are dogs allowed in the outdoor seating area?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have a quiet area where I can work?",
+    "label": "other"
+  },
+  {
+    "text": "What time does the kitchen close?",
+    "label": "other"
+  },
+  {
+    "text": "Do you serve breakfast throughout the day?",
+    "label": "other"
+  },
+  {
+    "text": "Can I bring my laptop and work from the cafe?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have decaffeinated coffee?",
+    "label": "other"
+  },
+  {
+    "text": "Which milk alternatives do you offer?",
+    "label": "other"
+  },
+  {
+    "text": "Is your cafe wheelchair accessible?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have high chairs for children?",
+    "label": "other"
+  },
+  {
+    "text": "Are there power outlets available for customers?",
+    "label": "other"
+  },
+  {
+    "text": "Do you sell whole coffee beans to take home?",
+    "label": "other"
+  },
+  {
+    "text": "What pastries are usually available in the morning?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have vegan food options?",
+    "label": "other"
+  },
+  {
+    "text": "Can I reserve a table for a small meeting?",
+    "label": "other"
+  },
+  {
+    "text": "Do you offer catering for office events?",
+    "label": "other"
+  },
+  {
+    "text": "What is the address of your nearest branch?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have a loyalty program?",
+    "label": "other"
+  },
+  {
+    "text": "How can I join your rewards program?",
+    "label": "other"
+  },
+  {
+    "text": "Do you offer reusable cups or travel mugs?",
+    "label": "other"
+  },
+  {
+    "text": "What payment methods do you accept?",
+    "label": "other"
+  },
+  {
+    "text": "Is there a minimum purchase for card payments?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have sugar-free syrup options?",
+    "label": "other"
+  },
+  {
+    "text": "What flavors of syrup are available?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have seating suitable for groups?",
+    "label": "other"
+  },
+  {
+    "text": "Are you open during public holidays?",
+    "label": "other"
+  },
+  {
+    "text": "Do you sell gift cards online?",
+    "label": "other"
+  },
+  {
+    "text": "How long is the usual wait during the morning rush?",
+    "label": "other"
+  },
+  {
+    "text": "Do you offer student discounts?",
+    "label": "other"
+  },
+  {
+    "text": "Can customers bring outside food into the cafe?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have a menu available online?",
+    "label": "other"
+  },
+  {
+    "text": "Which drinks contain caffeine?",
+    "label": "other"
+  },
+  {
+    "text": "Do you offer seasonal drinks during winter?",
+    "label": "other"
+  },
+  {
+    "text": "Can I buy a bag of your house coffee beans?",
+    "label": "other"
+  },
+  {
+    "text": "Is there a place to park bicycles near the cafe?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have restrooms available for customers?",
+    "label": "other"
+  },
+  {
+    "text": "What kind of pastries do you sell?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have options without added sugar?",
+    "label": "other"
+  },
+  {
+    "text": "Are there tables with electrical outlets?",
+    "label": "other"
+  },
+  {
+    "text": "Do you provide charging facilities for laptops?",
+    "label": "other"
+  },
+  {
+    "text": "Can I host a small birthday gathering at the cafe?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have a branch near the city center?",
+    "label": "other"
+  },
+  {
+    "text": "What sizes are available for your coffee drinks?",
+    "label": "other"
+  },
+  {
+    "text": "Do you offer iced versions of your regular drinks?",
+    "label": "other"
+  },
+  {
+    "text": "Which pastries are suitable for vegetarians?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have a customer loyalty card?",
+    "label": "other"
+  },
+  {
+    "text": "Can I purchase a Brew & Bean mug at the cafe?",
+    "label": "other"
+  },
+  {
+    "text": "What are the busiest times at your cafe?",
+    "label": "other"
+  },
+  {
+    "text": "Do you have private seating for meetings?",
+    "label": "other"
+  },
+  {
+    "text": "Is your menu suitable for people with nut allergies?",
+    "label": "other"
+  },
+  {
+    "text": "Do you offer coffee-making workshops?",
+    "label": "other"
+  }
+]
