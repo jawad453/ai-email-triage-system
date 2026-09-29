@@ -1,71 +1,83 @@
 import json
-from pathlib import Path
+import re
+
+from sklearn.calibration import CalibratedClassifierCV
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.pipeline import Pipeline
+from sklearn.svm import LinearSVC
 
 
 CONFIDENCE_THRESHOLD = 0.6
-ALLOWED_CATEGORIES = {"order", "feedback", "support", "other"}
+
+ALLOWED_CATEGORIES = {
+    "order",
+    "feedback",
+    "support",
+    "other",
+}
+
+trained_classifier = None
 
 
-def load_prompt():
-    """Load the reusable classification prompt."""
-    prompt_path = Path(__file__).parent / "prompt.txt"
-    return prompt_path.read_text(encoding="utf-8")
-
-
-def mock_llm(email_text):
+def train_classifier(texts, labels):
     """
-    Mock LLM used for local testing.
-
-    In the real application, this function can be replaced
-    with an OpenAI API call.
+    Train and return the email classification model.
     """
 
-    text = email_text.lower()
+    model = Pipeline([
+        (
+            "tfidf",
+            TfidfVectorizer(
+                ngram_range=(1, 2),
+                sublinear_tf=True
+            )
+        ),
+        (
+            "classifier",
+            CalibratedClassifierCV(
+                LinearSVC(),
+                cv=3
+            )
+        )
+    ])
 
-    # Simulate a low-confidence response
-    if "not sure" in text:
-        return json.dumps({
-            "category": "support",
-            "confidence": 0.45
-        })
+    model.fit(texts, labels)
 
-    # Simulate prompt-injection handling
-    if "ignore previous instructions" in text:
-        return json.dumps({
-            "category": "other",
-            "confidence": 0.91
-        })
+    return model
 
-    if any(word in text for word in ["order", "ordered", "delivery"]):
-        return json.dumps({
-            "category": "order",
-            "confidence": 0.92
-        })
 
-    if any(word in text for word in ["feedback", "great", "excellent", "complaint"]):
-        return json.dumps({
-            "category": "feedback",
-            "confidence": 0.88
-        })
+def set_classifier(model):
+    """
+    Set the trained classifier used by classify_email().
+    """
+    global trained_classifier
+    trained_classifier = model
 
-    if any(word in text for word in ["problem", "issue", "help", "broken"]):
-        return json.dumps({
-            "category": "support",
-            "confidence": 0.84
-        })
 
-    return json.dumps({
-        "category": "other",
-        "confidence": 0.72
-    })
+def sanitize_email(email_text):
+    """
+    Remove common prompt-injection instruction from the email.
+    The email is treated as untrusted data.
+    """
+
+    cleaned_text = re.sub(
+        r"(?i)\bignore\s+previous\s+instructions\b[.!]?\s*",
+        "",
+        email_text
+    )
+
+    return cleaned_text.strip()
 
 
 def classify_email(email_text):
     """
-    Classify an email and apply the confidence threshold.
+    Classify an email and return:
+    {
+        "category": "...",
+        "confidence": 0.0
+    }
 
-    Returns:
-        dict: JSON-compatible object containing category and confidence.
+    Confidence below 0.6 results in 'Uncertain'.
     """
 
     if not isinstance(email_text, str):
@@ -77,62 +89,41 @@ def classify_email(email_text):
             "confidence": 0.0
         }
 
-    prompt = load_prompt()
+    # Treat the email as untrusted input.
+    email_text = sanitize_email(email_text)
 
-    # Replace the placeholder with the customer's email.
-    final_prompt = prompt.replace("{{EMAIL_TEXT}}", email_text)
+    if not email_text:
+        return {
+            "category": "Uncertain",
+            "confidence": 0.0
+        }
 
-    # The prompt is constructed for the LLM.
-    # The mock does not need the prompt itself, but a real API call would use it.
-    _ = final_prompt
+    if trained_classifier is None:
+        raise RuntimeError(
+            "No classifier has been trained. "
+            "Call train_classifier() and set_classifier() first."
+        )
 
-    response = mock_llm(email_text)
+    probabilities = trained_classifier.predict_proba([email_text])[0]
 
-    try:
-        result = json.loads(response)
-    except json.JSONDecodeError as exc:
-        raise ValueError("LLM returned invalid JSON") from exc
+    classes = trained_classifier.classes_
 
-    if "category" not in result or "confidence" not in result:
-        raise ValueError("LLM response must contain category and confidence")
-
-    category = result["category"]
-    confidence = result["confidence"]
-
-    if not isinstance(category, str):
-        raise ValueError("category must be a string")
-
-    if not isinstance(confidence, (int, float)):
-        raise ValueError("confidence must be a number")
-
-    if not 0.0 <= confidence <= 1.0:
-        raise ValueError("confidence must be between 0.0 and 1.0")
+    best_index = probabilities.argmax()
+    category = classes[best_index]
+    confidence = float(probabilities[best_index])
 
     if category not in ALLOWED_CATEGORIES:
         category = "other"
 
-    # Required assignment rule:
-    # confidence below 0.6 -> Uncertain
     if confidence < CONFIDENCE_THRESHOLD:
         category = "Uncertain"
 
     return {
         "category": category,
-        "confidence": confidence
+        "confidence": round(confidence, 4)
     }
 
 
 if __name__ == "__main__":
-    test_emails = [
-        "I want to know the status of my coffee order.",
-        "Your coffee was excellent. I really enjoyed it.",
-        "My order arrived damaged. Please help.",
-        "I am not sure what category this email belongs to."
-    ]
-
-    for email in test_emails:
-        result = classify_email(email)
-
-        print("Email:", email)
-        print("Result:", json.dumps(result))
-        print()
+    print("triage.py is ready for Task 3.")
+    print("The classifier will be trained by evaluation.py.")
