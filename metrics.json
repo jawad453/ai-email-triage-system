@@ -1,0 +1,28 @@
+{
+    "accuracy": 0.8444,
+    "train_samples": 178,
+    "test_samples": 45,
+    "classes": {
+        "order": {
+            "precision": 0.9091,
+            "recall": 1.0,
+            "f1": 0.9524
+        },
+        "feedback": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571
+        },
+        "support": {
+            "precision": 1.0,
+            "recall": 0.7273,
+            "f1": 0.8421
+        },
+        "other": {
+            "precision": 0.9231,
+            "recall": 0.9167,
+            "f1": 0.9167
+        }
+    },
+    "uncertain_predictions": 5
+}
